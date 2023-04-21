@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="BG">
+<head>
+<meta charset="UTF-8">
+<title>СОЦИАЛЕН ХЪБ</title>
+<link rel="stylesheet" href="css/style.css">
+<script src="js/jquery.js"></script>
+	<script src="js/slides.min.jquery.js"></script>
+
+	<script>
+		$(function(){
+			$('#slides').slides({
+				preload: true,
+				generateNextPrev: false
+			});
+		});
+/**/
+function Show(id)
+{
+document.getElementById(id).style.height = "400px"
+}
+	</script>
+
+
+</head>
+<body>
+	<div class="container">
+	<div class="main_row">
+		<div class="logo"><img src="images/logo.png" height="60" alt="Logo"></div>
+		<div class="nav"> 
+			<div class="nav_box">
+			<a href="index.html"><div class="menu_act">Начало</div></a>
+			<a href="about_us.html"><div class="menu">За нас</div></a>
+			<a href="partners.html"><div class="menu">Партньори</div></a>
+			<a href="contacts.html"><div class="menu">Контакти</div></a>
+			
+			</div>
+		</div>
+		<div class="icons">
+		<!--<img src="images/search.png" width="40px"alt="Search">-->
+		<form class="search" method="post" action="search.html">
+		<input type="text" name="search" class="search" placeholder="Търси..">
+</form>
+		<a href="#"><img src="images/fb.png" height="40" alt="Facebook" class="icon_img"></a>
+		<a href="#"><img src="images/googleplus.png" height="40" alt="Google"  class="icon_img"></a>
+		</div>
+	</div>
+	<div class="main_row">&nbsp;</div>
+	<div class="main_row">
+	<div class="info_mr28"><h3>СОЦИАЛЕН ХЪБ</h3>
+	е платформа, предоставяща възможност на физически лица, организации и независими местни занаятчии да продават продуктите си в региона и извън него.<br><br>
+	<a href="contacts.html"><div class="btn_more">Свържете се с нас</div></a><br><br>
+	</div>
+	
+	<div class="big_img" ><img src="gallery/Picture_34.jpg" width="330"  class="home_img"  alt="Свържете се с нас"></div>
+	</div>
+	
+	<div class="main_row">
+		<div class="box" id="box1"><h4>Нашата</h4><h3>МИСИЯ</h3><br>
+		... да помогнем на бизнеса да намери своите клиенти, за да финансираме<br><a href="#box1"><div class="btn_more" Onclick="Show('box1');">Още...</div></a> <br><br> социална кухня за подпомагане на възрастни хора в неравностойно положение.
+		
+		</div>
+		<div class="box_middle" id="box2"><h4>Как работи</h4><h3>СОЦИАЛЕН ХЪБ</h3><br>
+		... ако производителите имат собствен он-лайн магазин или фейсбук страница, <br><a href="#box2"><div class="btn_more" Onclick="Show('box2');">Още...</div></a><br><br>Социален хъб ще Ви свърже с бъдещи клиенти!
+		
+		</div>
+		<div class="box" id="box3"><h4>Защо можем да си</h4><h3>ПОМАГАМЕ ВЗАИМНО</h3><br>
+		... като ви помогнем да управлявате успешно бизнеса си и едновременно <br><a href="#box3"><div class="btn_more" Onclick="Show('box3');">Още...</div></a><br><br> с това да бъдете социално ангажирани. 
+		
+		</div>
+	</div>
+	<div class="main_row">&nbsp;</div>
+	<div class="main_row">
+	<div class="big_img" id="mr28"><img src="gallery/Picture_33.jpg" class="home_img" width="330" alt="За нас" ></div>
+	<div class="info" ><h3>За нас</h3>
+
+	Социален хъб е платформа, стартирана от млади социални предприемачи. Нашата цел е да осигурим средства за създаване и поддръжка на социална кухня чрез свързване на местния бизнес с потенциални клиенти. В нашата кухня работят студенти и ученици, навършили 16 години.
+<ul>
+<li>Производители ...</li>
+<li>Студенти и ученици …</li>
+<li>Местни ресторанти ...</li>
+</ul>
+	<a href="about_us.html"><div class="btn_more">Виж още...</div></a>
+	</div>
+	
+	</div>
+	<div class="main_row">&nbsp;</div>
+	
+		<div class="main_row" id="slides" >
+<div class="box_arrow">
+<a href="#" class="prev"><img src="images/left_arrow.png" height="36" alt="наляво"></a></div>
+
+<div class="partners_info">
+<div class="slide">
+<div class="box_small"><b>Печатница "Ян Бибиян"</b><br><br><a href="partners.html"><img src="gallery/Picture_17.jpg" width="258" alt="Ян Бибиян"></a></div>
+<div class="box_small"><b>DAN Сървис</b><br><br><a href="partners.html"><img src="gallery/Picture_20.jpg" width="258" alt="DAN Сървис"></a></div>
+<div class="box_small"><b>Старата пекарна</b><br><br><a href="partners_2.html"><img src="gallery/Picture_21.jpg" width="258" alt="Старата пекарна"></a></div>
+</div>
+<div class="slide">
+<div class="box_small"><b>Физалис</b><br><br><img src="gallery/Picture_22.jpg" width="258" alt="Физалис"></div>
+<div class="box_small"><b>Family Delicious Food</b><br><br><a href="partners_3.html"><img src="gallery/Picture_23.jpg" width="258" alt="Family Delicious Food"></a></div>
+<div class="box_small"><b>InterTrans2go</b><br><br><a href="partners_3.html"><img src="gallery/Picture_24.jpg" width="258" alt="InterTrans2go"></a></div></div>
+</div>
+<div class="box_arrow">
+
+<a href="#" class="next"><img src="images/right_arrow.png" height="36" alt="надясно"></a></div>
+</div>
+<div class="main_row">&nbsp;</div>
+	<div class="footer"><div class="footer_author">автор | училище</div><div class="footer_year">година</div>
+	</div>
+	</div>
+</body>
+</html>

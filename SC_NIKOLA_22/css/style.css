@@ -1,0 +1,276 @@
+body{
+	margin:0px;
+	text-align:center;
+	font-family:Verdana;
+}
+a{
+	text-decoration:none;
+	color:#000000;
+}
+legend{
+	text-align:left;
+	font-size:14px;
+	font-weight:bold;
+}
+
+/*css file index*/
+.container{
+	margin:0px auto;
+	border:solid silver 1px;
+	width:1000px;
+	
+}
+.main_row{
+	width:980px;
+	margin:10px;float:left;
+}
+.logo{
+	width:180px;
+	float:left;
+	height:60px;
+	text-align:left;
+}
+form.search{
+	float:left;
+	width:220px;
+	margin:10px 20px;
+}
+input.search{
+  width: 100px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: #ffffff;
+  background-image: url('../images/search.png');
+  background-position: 3px 3px; 
+  background-repeat: no-repeat;
+  padding: 10px 20px 10px 46px;
+  transition-timing-function: ease-in-out;
+  transition: width 1s;
+  float:left;
+}
+
+input.search:focus {
+  width: 150px;
+}
+.nav{
+	width:400px;
+	float:left;
+	height:60px;
+}
+.nav_box{
+	width:400px;
+	height:20px;
+	margin-top:26px;
+	box-shadow:2px 2px 2px #000000;
+}
+
+.menu{
+	width:98px;
+	height:20px;
+	border:solid #000000 1px;
+	text-align:center;
+	float:left;
+	font-family:Verdana;
+	font-size:14px;
+	background-color:#ffffff;
+	transition: background-color 2s;
+}
+.menu:hover {
+	background-color:#1bafe0;
+}
+.menu_act{
+	width:98px;
+	height:20px;
+	border:solid #000000 1px;
+	text-align:center;
+	float:left;
+	font-family:Verdana;
+	font-size:14px;
+	background-color:#1bafe0;
+}
+.icons{
+	width:400px;
+	float:left;
+	height:60px;
+}
+.icon_img{
+	float:left;
+	margin:10px;
+}
+.box{
+	width:260px;
+	height:205px;
+	float:left;
+	border:solid silver 1px;
+	overflow:hidden;
+}
+.box_middle{
+	width:260px;
+	height:205px;
+	margin:0px 96px;
+	float:left;
+	border:solid silver 1px;overflow:hidden;
+}
+
+.big_img{
+	
+	float:left;
+	width:330px;
+	 animation-name: example;
+  animation-duration: 2s;
+}
+.home_img{
+	width:330px;
+	animation-name: example;
+	animation-duration: 2s;
+}
+@keyframes example {
+  from {width:250px;}
+  to {width:330px;}
+}
+
+.info{
+	float:left;
+	width:620px;
+	text-align:justify;
+}
+.info_mr28{
+	float:left;
+	width:620px;
+	text-align:justify;
+	margin-right:28px;
+}
+#mr28{
+	
+	margin-right:28px;
+}
+
+.btn_more{
+	background-color:#ffffff;
+	display: inline;
+	font-size:12px;
+	height:20px;
+	padding:3px;
+	border:solid #000000 1px;
+	box-shadow:2px 2px 2px #000000;
+}
+/*galley*/
+.partners_info {
+width:900px;
+height:260px;
+float:left;
+}
+.slide{
+width:980px;
+}
+.pagination {
+list-style:none;
+margin:0;
+padding:0;
+display:none;
+}
+.box_small{
+	width:258px;
+	height:258px;
+	margin:0px 20px;
+	float:left;
+	border:solid silver 1px;
+}
+.box_arrow{
+	width:20px;
+	height:260px;
+	margin:0px 10px;
+	float:left;
+	padding-top:118px;
+}
+/**/
+.footer{
+	height:20px;
+	background-color:#a1a1a1;
+	width:1000px;
+	clear:both;
+}
+.footer_author{
+	float:left;
+	font-family:Verdana;
+	font-size:12px;
+	padding:2px 10px;
+}
+.footer_year{
+	float:right;
+	font-family:Verdana;
+	font-size:12px;
+	padding:2px 10px;
+}
+/**/
+/*css  file about_us*/
+.about_box{
+	width:223px;
+	height:223px;
+	float:left;
+	border:solid silver 1px;
+}
+.about_box_middle{
+	width:223px;
+	height:223px;
+	margin:0px 20px;
+	float:left;
+	border:solid silver 1px;
+}
+.about_info{
+	width:980px;
+	text-align:justify;
+}
+.contacts_box{
+	width:223px;
+	height:223px;
+	float:left;
+	border:solid silver 1px;
+	text-align:left;
+	padding-left:10px;
+}
+.contacts_box_middle{
+	width:223px;
+	height:223px;
+	margin:0px 20px;
+	float:left;
+	border:solid silver 1px;
+	text-align:left;
+	padding-left:10px;
+}
+
+/**/
+/*css file partners*/
+.partner_textbox{
+	width:468px;
+	margin-right:12px;
+	float:left;
+	text-align:justify;
+	text-indent:1cm;
+}
+.partner_imgbox{
+	width:468px;
+	float:left;
+}
+
+/**/
+/* css file contacts*/
+.contact_info{
+	width:480px;
+	margin-right:20px;
+	text-align:justify;
+}
+.contact_field{
+	width:450px;
+	float:left;
+	padding:2px;
+	margin:10px 5px;
+}
+.contact_area{
+	width:920px;
+	height:100px;
+	float:left;
+	padding:2px;
+	margin:10px 5px;
+}
